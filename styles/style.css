@@ -23,6 +23,7 @@ body {
  
 .cabecalho {
     padding: 2%;
+    background-color: var(--cor-primaria);
 }
 
 .cabecalho__menu {
@@ -101,9 +102,9 @@ body {
     gap: 16px;
 
     border: 2px solid var(--cor-primaria);
+    border-radius: 8px;
 
     width: 50%;
-    border-radius: 8px;
     padding: 21.5px 0;
 
     text-align: center;
@@ -144,13 +145,30 @@ body {
         padding: 5%;
     }
 
+    .cabecalho__menu {
+        gap: 25px;
+    }
+
     .display {
         flex-direction: column-reverse;
-        padding: 5%;
+        padding: 10% 5% 10% 5%;
+        gap: 25px;
     }
 
     .display__conteudo {
         width: auto;
+        gap: 20px;
+    }
+
+    .display__links {
+        gap: 16px;
+    }
+
+    .display__links__botao {
+        gap: 10px;
+    }
+
+    .rodape {
+        padding: 20px;
     }
 }
-
